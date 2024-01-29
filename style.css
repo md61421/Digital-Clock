@@ -199,3 +199,28 @@
     }
   }
 }
+
+.info {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .info-socials {
+    color: currentColor;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.5em;
+  }
+  
+  .info-socials a {
+    color: currentColor;
+    padding: 0 0.5em;
+  }
